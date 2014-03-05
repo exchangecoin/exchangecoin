@@ -10,9 +10,9 @@ rpcpass = ""
 
 
 if rpcpass == "":
-	access = ServiceProxy("http://127.0.0.1:5888")
+	access = ServiceProxy("http://127.0.0.1:5889")
 else:
-	access = ServiceProxy("http://"+rpcuser+":"+rpcpass+"@127.0.0.1:5888")
+	access = ServiceProxy("http://"+rpcuser+":"+rpcpass+"@127.0.0.1:5889")
 cmd = sys.argv[1].lower()
 
 if cmd == "backupwallet":
@@ -24,7 +24,7 @@ if cmd == "backupwallet":
 
 elif cmd == "getaccount":
 	try:
-		addr = raw_input("Enter a Vertcoin address: ")
+		addr = raw_input("Enter a Exchangecoin address: ")
 		print access.getaccount(addr)
 	except:
 		print "\n---An error occurred---\n"
