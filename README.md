@@ -4,7 +4,7 @@ Exchangecoin integration/staging tree
 http://www.exchangecoin.org
 
 Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2011-2013 Litecoin Developers
+Copyright (c) 2011-2013 Exchangecoin Developers
 Copyright (c) 2014 Vertcoin Developers
 Copyright (c) 2014 Exchangecoin Developers
 
